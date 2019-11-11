@@ -1,0 +1,81 @@
+// Add additional styles here. For example, overwrite certain styles or add new components.
+// Tip: You can use bootstrap's powerful mixins here!
+
+
+//.alert-myalert {
+//  @include alert-variant(#60667d, #1d1d1d, #f4fdff);
+//}
+
+//@each $color, $value in $theme-colors {
+//  .alert-#{$color} {
+//    box-shadow: 3px 3px theme-color-level($color, -3);
+//  }
+//}
+.bg-header {
+  background: url("../img/Copy of Brookllin Film Festival.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.h1 {
+  font-family: 'edo';
+
+}
+
+.bg-tri {
+  background: url(../img/stayclassy2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-tri2 {
+  background: url(../img/StayClassy.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-social {
+  background: url(../img/contact.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.font-edo {
+  font-family: "edo";
+}
+
+.font-kollektif {
+  font-family: "kollektif";
+}
+
+.height-100-vh {
+  height: 100vh;
+}
+
+.height-80-vh {
+  min-height: 80vh;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: 'edo';
+  /*a name to be used later*/
+  src: url(../fonts/Edo/edo.ttf);
+  /*URL to font*/
+}
+
+@font-face {
+  font-family: 'kollektif';
+  /*a name to be used later*/
+  src: url(../fonts/kollektif/Kollektif-BoldItalic.ttf);
+  /*URL to font*/
+}
